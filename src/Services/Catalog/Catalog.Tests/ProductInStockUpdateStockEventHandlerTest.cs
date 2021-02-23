@@ -138,5 +138,31 @@ namespace Catalog.Tests
 
             Assert.AreEqual(stockInDb, 3);
         }
+
+        [TestMethod]
+        public void TryToAddStockWhenProductNotExists()
+        {
+            var context = ApplicationDbContextInMemory.Get();
+
+            var productId = 4;
+
+            var handler = new ProductInStockUpdateStockEventHandler(context, GetLogger);
+
+            handler.Handle(new ProductInStockUpdateStockCommand
+            {
+                Items = new List<ProductInStockUpdateItem>() {
+                    new ProductInStockUpdateItem
+                    {
+                        ProductId = productId,
+                        Stock = 2,
+                        Action = ProductInStockAction.Add
+                    }
+                }
+            }, new CancellationToken()).Wait();
+
+            var stockInDb = context.Stocks.Single(x => x.ProductId == productId).Stock;
+
+            Assert.AreEqual(stockInDb, 2);
+        }
     }
 }
