@@ -1,16 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DdX2dcTteShrtYbvZ55/Fe1jMDJ6/hAMSbVJPkA80BLW2kytwW4r34sK6yzflkurOVEwXkZ1C50rtekJGZ6r7g==",
+  "dgSpecHash": "BW1jHl1CPLZxtO9Q9hg2FK0Z3BixJkruLHyQiNhdSCsyDG1oKlSW+itttibHEdYC9f3DIkcVaT0vOSnh9w9AeA==",
   "success": true,
   "projectFilePath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\Common.Logging.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kevinem986\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
-    "C:\\Users\\Kevinem986\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Kevinem986\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
-    "C:\\Users\\Kevinem986\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\Kevinem986\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\Kevinem986\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\Kevinem986\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+    "C:\\Users\\Kevinem986\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.1\\microsoft.extensions.logging.abstractions.3.1.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -24,7 +24,9 @@ E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Deb
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
@@ -44,7 +46,6 @@ E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Deb
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
