@@ -33,23 +33,28 @@ namespace Catalog.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(opts =>
-                opts.UseSqlServer(
+            // DbContext
+            services.AddDbContext<ApplicationDbContext>(
+                options => options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection"),
-                    x => x.MigrationsHistoryTable("__EFMigrationHistory", "Catalog")
-                    )
-                );
+                    x => x.MigrationsHistoryTable("__EFMigrationsHistory", "Catalog")
+                )
+            );
 
+            // Health check
             services.AddHealthChecks()
-                .AddCheck("self", () => HealthCheckResult.Healthy())
-                .AddDbContextCheck<ApplicationDbContext>();
+                        .AddCheck("self", () => HealthCheckResult.Healthy())
+                        .AddDbContextCheck<ApplicationDbContext>(typeof(ApplicationDbContext).Name);
 
             services.AddHealthChecksUI();
 
+            // Event handlers
             services.AddMediatR(Assembly.Load("Catalog.Service.EventHandlers"));
 
+            // Query services
             services.AddTransient<IProductQueryService, ProductQueryService>();
 
+            // API Controllers
             services.AddControllers();
         }
 
@@ -60,11 +65,12 @@ namespace Catalog.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            loggerFactory.AddSyslog(
-                Configuration.GetValue<string>("Papertrail:host"),
-                Configuration.GetValue<int>("Papertrail:port")
-                );
+            else
+            {
+                loggerFactory.AddSyslog(
+                    Configuration.GetValue<string>("Papertrail:host"),
+                    Configuration.GetValue<int>("Papertrail:port"));
+            }
 
             app.UseRouting();
 
@@ -72,14 +78,13 @@ namespace Catalog.Api
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers();
                 endpoints.MapHealthChecks("/hc", new HealthCheckOptions()
                 {
                     Predicate = _ => true,
                     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
                 });
-
                 endpoints.MapHealthChecksUI();
-                endpoints.MapControllers();
             });
         }
     }
