@@ -1,6 +1,7 @@
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Common\bin\Debug\netcoreapp3.1\Catalog.Common.deps.json
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Common\bin\Debug\netcoreapp3.1\Catalog.Common.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Common\bin\Debug\netcoreapp3.1\Catalog.Common.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.csprojAssemblyReference.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.AssemblyInfoInputs.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.AssemblyInfo.cs
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.csproj.CoreCompileInputs.cache
