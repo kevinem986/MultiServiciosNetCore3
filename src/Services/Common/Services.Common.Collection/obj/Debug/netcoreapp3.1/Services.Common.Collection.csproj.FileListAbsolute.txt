@@ -1,6 +1,7 @@
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Collection\bin\Debug\netcoreapp3.1\Services.Common.Collection.deps.json
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Collection\bin\Debug\netcoreapp3.1\Services.Common.Collection.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Collection\bin\Debug\netcoreapp3.1\Services.Common.Collection.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Collection\obj\Debug\netcoreapp3.1\Services.Common.Collection.csprojAssemblyReference.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Collection\obj\Debug\netcoreapp3.1\Services.Common.Collection.AssemblyInfoInputs.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Collection\obj\Debug\netcoreapp3.1\Services.Common.Collection.AssemblyInfo.cs
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Collection\obj\Debug\netcoreapp3.1\Services.Common.Collection.csproj.CoreCompileInputs.cache
