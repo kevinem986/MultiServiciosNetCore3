@@ -8,6 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using static Catalog.Common.Enums;
 
@@ -57,7 +58,6 @@ namespace Catalog.Tests
             }, new CancellationToken()).Wait();
         }
 
-
         [TestMethod]
         [ExpectedException(typeof(ProductInStockUpdateStockCommandException))]
         public void TryToSubstractStockWhenProductHasntStock()
@@ -101,6 +101,42 @@ namespace Catalog.Tests
                     throw new ProductInStockUpdateStockCommandException(exception?.InnerException?.Message);
                 }
             }
+        }
+
+        [TestMethod]
+        public void TryToAddStockWhenProductExists()
+        {
+            var context = ApplicationDbContextInMemory.Get();
+
+            var productInStockId = 3;
+            var productId = 3;
+
+            context.Stocks.Add(new ProductInStock
+            {
+                ProductInStockId = productInStockId,
+                ProductId = productId,
+                Stock = 1
+            });
+
+            context.SaveChanges();
+
+            var handler = new ProductInStockUpdateStockEventHandler(context, GetLogger);
+
+            handler.Handle(new ProductInStockUpdateStockCommand
+            {
+                Items = new List<ProductInStockUpdateItem>() {
+                    new ProductInStockUpdateItem
+                    {
+                        ProductId = productId,
+                        Stock = 2,
+                        Action = ProductInStockAction.Add
+                    }
+                }
+            }, new CancellationToken()).Wait();
+
+            var stockInDb = context.Stocks.Single(x => x.ProductId == productId).Stock;
+
+            Assert.AreEqual(stockInDb, 3);
         }
     }
 }
