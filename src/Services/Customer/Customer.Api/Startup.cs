@@ -1,18 +1,13 @@
+using Customer.Persistence.Database;
+using Customer.Services.Queries;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Customer.Persistence.Database;
-using Microsoft.EntityFrameworkCore;
-using Customer.Services.Queries;
+using System.Reflection;
 
 namespace Customer.Api
 {
@@ -34,6 +29,9 @@ namespace Customer.Api
                     Configuration.GetConnectionString("DefaultConnection"),
                     x => x.MigrationsHistoryTable("__EFMigrationsHistory", "Customer"))
                 );
+
+            // Event handlers
+            services.AddMediatR(Assembly.Load("Customer.Services.EventHandlers"));
 
             //Query services
             services.AddTransient<IClientQueryService, ClientQueryService>();

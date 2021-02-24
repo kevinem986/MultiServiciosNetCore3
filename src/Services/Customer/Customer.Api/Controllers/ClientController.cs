@@ -1,5 +1,7 @@
 ﻿using Customer.Service.Queries.DTOs;
+using Customer.Services.EventHandlers.Commands;
 using Customer.Services.Queries;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Services.Common.Collection;
@@ -16,12 +18,15 @@ namespace Customer.Api.Controllers
     {
         private readonly IClientQueryService _clientQuerService;
         private readonly ILogger<ClientController> _logger;
+        private readonly IMediator _mediator;
 
         public ClientController(
             ILogger<ClientController> logger,
-             IClientQueryService clientQuerService)
+            IMediator mediator,
+            IClientQueryService clientQuerService)
         {
             _logger = logger;
+            _mediator = mediator;
             _clientQuerService = clientQuerService;
 
         }
@@ -43,6 +48,13 @@ namespace Customer.Api.Controllers
         public async Task<ClientDto> Get(int id)
         {
             return await _clientQuerService.GetAsync(id);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(ClientCreateCommand notification)
+        {
+            await _mediator.Publish(notification);
+            return Ok();
         }
     }
 }

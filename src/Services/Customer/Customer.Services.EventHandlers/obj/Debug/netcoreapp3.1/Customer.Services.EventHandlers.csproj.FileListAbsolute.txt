@@ -1,0 +1,14 @@
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\bin\Debug\netcoreapp3.1\Customer.Services.EventHandlers.deps.json
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\bin\Debug\netcoreapp3.1\Customer.Services.EventHandlers.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\bin\Debug\netcoreapp3.1\Customer.Services.EventHandlers.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\bin\Debug\netcoreapp3.1\Customer.Domain.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\bin\Debug\netcoreapp3.1\Customer.Persistence.Database.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\bin\Debug\netcoreapp3.1\Customer.Persistence.Database.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\bin\Debug\netcoreapp3.1\Customer.Domain.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\obj\Debug\netcoreapp3.1\Customer.Services.EventHandlers.csprojAssemblyReference.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\obj\Debug\netcoreapp3.1\Customer.Services.EventHandlers.AssemblyInfoInputs.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\obj\Debug\netcoreapp3.1\Customer.Services.EventHandlers.AssemblyInfo.cs
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\obj\Debug\netcoreapp3.1\Customer.Services.EventHandlers.csproj.CoreCompileInputs.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\obj\Debug\netcoreapp3.1\Customer.Services.EventHandlers.csproj.CopyComplete
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\obj\Debug\netcoreapp3.1\Customer.Services.EventHandlers.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Services.EventHandlers\obj\Debug\netcoreapp3.1\Customer.Services.EventHandlers.pdb

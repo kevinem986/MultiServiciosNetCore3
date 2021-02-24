@@ -1,6 +1,7 @@
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.deps.json
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.csprojAssemblyReference.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.AssemblyInfoInputs.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.AssemblyInfo.cs
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.csproj.CoreCompileInputs.cache
