@@ -1,0 +1,12 @@
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\bin\Debug\netcoreapp3.1\Customer.Persistence.Database.deps.json
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\bin\Debug\netcoreapp3.1\Customer.Persistence.Database.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\bin\Debug\netcoreapp3.1\Customer.Persistence.Database.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\bin\Debug\netcoreapp3.1\Customer.Domain.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\bin\Debug\netcoreapp3.1\Customer.Domain.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\obj\Debug\netcoreapp3.1\Customer.Persistence.Database.csprojAssemblyReference.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\obj\Debug\netcoreapp3.1\Customer.Persistence.Database.AssemblyInfoInputs.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\obj\Debug\netcoreapp3.1\Customer.Persistence.Database.AssemblyInfo.cs
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\obj\Debug\netcoreapp3.1\Customer.Persistence.Database.csproj.CoreCompileInputs.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\obj\Debug\netcoreapp3.1\Customer.Persistence.Database.csproj.CopyComplete
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\obj\Debug\netcoreapp3.1\Customer.Persistence.Database.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Persistence.Database\obj\Debug\netcoreapp3.1\Customer.Persistence.Database.pdb

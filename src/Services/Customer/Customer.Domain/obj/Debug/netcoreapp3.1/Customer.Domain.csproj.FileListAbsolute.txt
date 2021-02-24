@@ -1,0 +1,9 @@
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\bin\Debug\netcoreapp3.1\Customer.Domain.deps.json
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\bin\Debug\netcoreapp3.1\Customer.Domain.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\bin\Debug\netcoreapp3.1\Customer.Domain.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.csprojAssemblyReference.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.AssemblyInfoInputs.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.AssemblyInfo.cs
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.csproj.CoreCompileInputs.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.pdb
