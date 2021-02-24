@@ -12,6 +12,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Customer.Persistence.Database;
 using Microsoft.EntityFrameworkCore;
+using Customer.Services.Queries;
 
 namespace Customer.Api
 {
@@ -34,6 +35,8 @@ namespace Customer.Api
                     x => x.MigrationsHistoryTable("__EFMigrationsHistory", "Customer"))
                 );
 
+            //Query services
+            services.AddTransient<IClientQueryService, ClientQueryService>();
 
             services.AddControllers();
         }

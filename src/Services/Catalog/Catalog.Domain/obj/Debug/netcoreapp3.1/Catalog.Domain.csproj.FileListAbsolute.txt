@@ -6,4 +6,3 @@ E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Domain\obj\
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Domain\obj\Debug\netcoreapp3.1\Catalog.Domain.csproj.CoreCompileInputs.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Domain\obj\Debug\netcoreapp3.1\Catalog.Domain.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Domain\obj\Debug\netcoreapp3.1\Catalog.Domain.pdb
-E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Catalog\Catalog.Domain\obj\Debug\netcoreapp3.1\Catalog.Domain.csprojAssemblyReference.cache
