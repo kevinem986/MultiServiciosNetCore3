@@ -1,0 +1,580 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj": {}
+  },
+  "projects": {
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Collection\\Services.Common.Collection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Collection\\Services.Common.Collection.csproj",
+        "projectName": "Services.Common.Collection",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Collection\\Services.Common.Collection.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Collection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Mapping\\Services.Common.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Mapping\\Services.Common.Mapping.csproj",
+        "projectName": "Services.Common.Mapping",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Mapping\\Services.Common.Mapping.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Paging\\Services.Common.Paging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Paging\\Services.Common.Paging.csproj",
+        "projectName": "Services.Common.Paging",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Paging\\Services.Common.Paging.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Paging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Collection\\Services.Common.Collection.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Collection\\Services.Common.Collection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj",
+        "projectName": "Customer.Api",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\Common.Logging.csproj"
+              },
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj"
+              },
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.EventHandlers\\Customer.Services.EventHandlers.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.EventHandlers\\Customer.Services.EventHandlers.csproj"
+              },
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.Queries\\Customer.Services.Queries.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.Queries\\Customer.Services.Queries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[3.0.9, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
+        "projectName": "Customer.Domain",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj",
+        "projectName": "Customer.Persistence.Database",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.EventHandlers\\Customer.Services.EventHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.EventHandlers\\Customer.Services.EventHandlers.csproj",
+        "projectName": "Customer.Services.EventHandlers",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.EventHandlers\\Customer.Services.EventHandlers.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.EventHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.Queries\\Customer.Services.Queries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.Queries\\Customer.Services.Queries.csproj",
+        "projectName": "Customer.Services.Queries",
+        "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.Queries\\Customer.Services.Queries.csproj",
+        "packagesPath": "C:\\Users\\Kevinem986\\.nuget\\packages\\",
+        "outputPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Services.Queries\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kevinem986\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Mapping\\Services.Common.Mapping.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Mapping\\Services.Common.Mapping.csproj"
+              },
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Paging\\Services.Common.Paging.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Common\\Services.Common.Paging\\Services.Common.Paging.csproj"
+              },
+              "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
+                "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
