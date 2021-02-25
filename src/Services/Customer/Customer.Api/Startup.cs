@@ -1,12 +1,15 @@
 using Common.Logging;
 using Customer.Persistence.Database;
 using Customer.Services.Queries;
+using HealthChecks.UI.Client;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Reflection;
@@ -32,12 +35,20 @@ namespace Customer.Api
                     x => x.MigrationsHistoryTable("__EFMigrationsHistory", "Customer"))
                 );
 
+            // Health Check
+            services.AddHealthChecks()
+                .AddCheck("self", () => HealthCheckResult.Healthy())
+                .AddDbContextCheck<ApplicationDbContext>();
+
+            services.AddHealthChecksUI();
+
             // Event handlers
             services.AddMediatR(Assembly.Load("Customer.Services.EventHandlers"));
 
             //Query services
             services.AddTransient<IClientQueryService, ClientQueryService>();
 
+            // API Controllers
             services.AddControllers();
         }
 
@@ -64,6 +75,12 @@ namespace Customer.Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHealthChecks("/hc", new HealthCheckOptions()
+                {
+                    Predicate = _ => true,
+                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+                });
+                endpoints.MapHealthChecksUI();
             });
         }
     }
