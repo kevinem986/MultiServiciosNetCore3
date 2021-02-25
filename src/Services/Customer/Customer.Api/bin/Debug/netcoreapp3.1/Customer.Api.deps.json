@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Customer.Api/1.0.0": {
         "dependencies": {
+          "Common.Logging": "1.0.0",
           "Customer.Persistence.Database": "1.0.0",
           "Customer.Services.EventHandlers": "1.0.0",
           "Customer.Services.Queries": "1.0.0",
@@ -1230,6 +1231,17 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "Common.Logging/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.1"
+        },
+        "runtime": {
+          "Common.Logging.dll": {}
+        },
+        "compile": {
+          "Common.Logging.dll": {}
         }
       },
       "Customer.Domain/1.0.0": {
@@ -3568,6 +3580,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Common.Logging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Customer.Domain/1.0.0": {
       "type": "project",

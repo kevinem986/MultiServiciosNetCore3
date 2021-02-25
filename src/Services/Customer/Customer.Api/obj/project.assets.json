@@ -1303,6 +1303,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common.Logging/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Common.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Logging.dll": {}
+        }
+      },
       "Customer.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5121,6 +5134,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Common.Logging/1.0.0": {
+      "type": "project",
+      "path": "../../../Common.Logging/Common.Logging.csproj",
+      "msbuildProject": "../../../Common.Logging/Common.Logging.csproj"
+    },
     "Customer.Domain/1.0.0": {
       "type": "project",
       "path": "../Customer.Domain/Customer.Domain.csproj",
@@ -5159,6 +5177,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Common.Logging >= 1.0.0",
       "Customer.Persistence.Database >= 1.0.0",
       "Customer.Services.EventHandlers >= 1.0.0",
       "Customer.Services.Queries >= 1.0.0",
@@ -5194,6 +5213,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\Common.Logging.csproj": {
+              "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Common.Logging\\Common.Logging.csproj"
+            },
             "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj": {
               "projectPath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Customer\\Customer.Persistence.Database\\Customer.Persistence.Database.csproj"
             },

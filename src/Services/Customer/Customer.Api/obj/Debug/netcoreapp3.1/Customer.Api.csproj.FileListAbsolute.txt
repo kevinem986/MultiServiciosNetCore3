@@ -66,3 +66,5 @@ E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Api\obj\D
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Api\obj\Debug\netcoreapp3.1\Customer.Api.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Api\obj\Debug\netcoreapp3.1\Customer.Api.pdb
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Api\obj\Debug\netcoreapp3.1\Customer.Api.genruntimeconfig.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Api\bin\Debug\netcoreapp3.1\Common.Logging.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Customer\Customer.Api\bin\Debug\netcoreapp3.1\Common.Logging.pdb
