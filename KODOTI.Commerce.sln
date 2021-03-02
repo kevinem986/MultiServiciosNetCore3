@@ -101,6 +101,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Service.EventHandlers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Service.Proxies", "src\Services\Order\Order.Service.Proxies\Order.Service.Proxies.csproj", "{1C0C2F30-4501-4ABF-A11F-E791CE6CEA27}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Listeners", "07. Listeners", "{CBA45F6F-FA96-494C-A057-8F55A722F003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Listener", "src\Services\Catalog\Catalog.Listener\Catalog.Listener.csproj", "{7232DFC0-88F6-4797-961D-76357C2324B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +203,10 @@ Global
 		{1C0C2F30-4501-4ABF-A11F-E791CE6CEA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C0C2F30-4501-4ABF-A11F-E791CE6CEA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C0C2F30-4501-4ABF-A11F-E791CE6CEA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7232DFC0-88F6-4797-961D-76357C2324B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7232DFC0-88F6-4797-961D-76357C2324B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7232DFC0-88F6-4797-961D-76357C2324B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7232DFC0-88F6-4797-961D-76357C2324B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +257,8 @@ Global
 		{79CF688B-0389-48D8-B7EA-9BE6A81031EA} = {1588275E-2C7E-4ED6-A68B-E734F41E9E2B}
 		{869966D2-5765-4CD2-92F1-8107BFA7608F} = {1588275E-2C7E-4ED6-A68B-E734F41E9E2B}
 		{1C0C2F30-4501-4ABF-A11F-E791CE6CEA27} = {1588275E-2C7E-4ED6-A68B-E734F41E9E2B}
+		{CBA45F6F-FA96-494C-A057-8F55A722F003} = {39F0554C-00E9-404C-90DD-49D629084787}
+		{7232DFC0-88F6-4797-961D-76357C2324B2} = {CBA45F6F-FA96-494C-A057-8F55A722F003}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E49A4694-316B-4D5E-AC47-A6BFF729AC83}
