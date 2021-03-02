@@ -1,0 +1,12 @@
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\bin\Debug\netcoreapp3.1\Order.Service.Proxies.deps.json
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\bin\Debug\netcoreapp3.1\Order.Service.Proxies.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\bin\Debug\netcoreapp3.1\Order.Service.Proxies.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\bin\Debug\netcoreapp3.1\Services.Common.Collection.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\bin\Debug\netcoreapp3.1\Services.Common.Collection.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\obj\Debug\netcoreapp3.1\Order.Service.Proxies.csprojAssemblyReference.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\obj\Debug\netcoreapp3.1\Order.Service.Proxies.AssemblyInfoInputs.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\obj\Debug\netcoreapp3.1\Order.Service.Proxies.AssemblyInfo.cs
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\obj\Debug\netcoreapp3.1\Order.Service.Proxies.csproj.CoreCompileInputs.cache
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\obj\Debug\netcoreapp3.1\Order.Service.Proxies.csproj.CopyComplete
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\obj\Debug\netcoreapp3.1\Order.Service.Proxies.dll
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Service.Proxies\obj\Debug\netcoreapp3.1\Order.Service.Proxies.pdb

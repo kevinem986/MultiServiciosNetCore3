@@ -1,7 +1,6 @@
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Common\bin\Debug\netcoreapp3.1\Order.Common.deps.json
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Common\bin\Debug\netcoreapp3.1\Order.Common.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Common\bin\Debug\netcoreapp3.1\Order.Common.pdb
-E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Common\obj\Debug\netcoreapp3.1\Order.Common.csprojAssemblyReference.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Common\obj\Debug\netcoreapp3.1\Order.Common.AssemblyInfoInputs.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Common\obj\Debug\netcoreapp3.1\Order.Common.AssemblyInfo.cs
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Order\Order.Common\obj\Debug\netcoreapp3.1\Order.Common.csproj.CoreCompileInputs.cache
