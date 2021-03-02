@@ -6,3 +6,4 @@ E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Mapp
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Mapping\obj\Debug\netcoreapp3.1\Services.Common.Mapping.csproj.CoreCompileInputs.cache
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Mapping\obj\Debug\netcoreapp3.1\Services.Common.Mapping.dll
 E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Mapping\obj\Debug\netcoreapp3.1\Services.Common.Mapping.pdb
+E:\Developer\.NetCore3+\KODOTI.Commerce\src\Services\Common\Services.Common.Mapping\obj\Debug\netcoreapp3.1\Services.Common.Mapping.csprojAssemblyReference.cache
