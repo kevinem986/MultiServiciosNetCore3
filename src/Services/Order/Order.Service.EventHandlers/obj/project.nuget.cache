@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9RkvSfxv4lfefQHL942LjCN0t3UcL/5We4QFY5OnJfg8ZtT5N+NLX+camGlFNmtYr+8GQXeUy881PgCUe8uUGg==",
+  "dgSpecHash": "a1cO2vOa2BDPmbKpbFdQP2C+dj+JsS9YTUUscIV2N+CpivQEsoMOk2rGs8G//ZDBB4irbX5BLUFW26Tx+rsZ5Q==",
   "success": true,
   "projectFilePath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Order\\Order.Service.EventHandlers\\Order.Service.EventHandlers.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v5yo2erVhGoJUHgAn/pNt5HpwUVyNorCkUXTAn9+aWjWnItL3Kp3H3aY0ZWBzxPNQr+7fKynDuPdYWCj402Wmw==",
+  "dgSpecHash": "JJ1mjCkkR2TxS6KMWJRC9mpprr8a+MEym/UHo+GO0QyfIGN34XdMpqRkN2QgolXqy4Q3CZQ6BYlEui7vk4ZSYg==",
   "success": true,
   "projectFilePath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Catalog\\Catalog.Service.EventHandlers\\Catalog.Service.EventHandlers.csproj",
   "expectedPackageFiles": [

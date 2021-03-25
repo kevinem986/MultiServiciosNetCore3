@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/uOeVGshBkfAPMY6tcmYpsBQd5QHvdTS6qQJehWfX3ONKRflR0KStPUPLlyDpnJHhaXBsKFwreQcAuBPQpD5gw==",
+  "dgSpecHash": "QUv5SzPkLcQFooLtAIoWmEOyCc/VL5pxkdh8uZFsE4XflRFeEkFzzJshmKkeJ1cPqP9UlQRWS/Az0l0pVjtwIg==",
   "success": true,
   "projectFilePath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Catalog\\Catalog.Persistence.Database\\Catalog.Persistence.Database.csproj",
   "expectedPackageFiles": [

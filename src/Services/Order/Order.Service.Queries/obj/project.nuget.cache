@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D9x3XyWDjHW+l5JnlYz3j7tchw9QxAkT526YDvIfi7dOdDXCpddEU35WOrD44s+yZtpibcJQyVN6Xo7hRfc3hQ==",
+  "dgSpecHash": "y8gb/ZcXWMWPSuKH64p4qUr+eZBr9x6u3RlL4NtAy6tLVqKC7KwNHeWerfxn7J3LLclAffvoaY7AnoBl5IGtXw==",
   "success": true,
   "projectFilePath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Order\\Order.Service.Queries\\Order.Service.Queries.csproj",
   "expectedPackageFiles": [

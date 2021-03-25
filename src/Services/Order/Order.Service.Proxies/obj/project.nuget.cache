@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FAzX3HRyo3BdL6eBMWYBOkEXk8rOESmKeB1waITn7k7G2zqYdXpYqGclFoVVTSb1x1ri+kYxL3jJS/IYjq2r8Q==",
+  "dgSpecHash": "0hMvH3F6x3ukZfJBFK5NAvaZE1Sd0bjqFQ5A5hcGABuYhStsW5X6v02H1Pv/8JaVAz160Q3KHtHitUTq09q3tA==",
   "success": true,
   "projectFilePath": "E:\\Developer\\.NetCore3+\\KODOTI.Commerce\\src\\Services\\Order\\Order.Service.Proxies\\Order.Service.Proxies.csproj",
   "expectedPackageFiles": [
